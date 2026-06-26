@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bella Italia – Taste the Best Food in Town</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts: Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+
+        <a href="#home" class="nav-logo">
+          <span class="logo-icon"><i class="fas fa-utensils"></i></span>
+          <span class="logo-text">Bella <em>Italia</em></span>
+        </a>
+
+        <!-- Hidden checkbox powers the mobile toggle -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-hamburger" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#contact" class="btn btn-nav">Book a Table</a>
+
+      </div>
+    </nav>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow">Est. 1987 &middot; Rome, Italy</p>
+        <h1 class="hero-title">
+          Taste the Best<br />
+          <span>Food in Town</span>
+        </h1>
+        <p class="hero-desc">
+          Handcrafted recipes passed down through generations — served with warmth,
+          passion, and the finest ingredients Italy has to offer.
+        </p>
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary">View Menu</a>
+          <a href="#contact" class="btn btn-outline">Book a Table</a>
+        </div>
+      </div>
+
+      <div class="hero-scroll" aria-hidden="true">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+    <section class="about section" id="about">
+      <div class="container about-grid">
+
+        <div class="about-img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=80"
+            alt="Inside Bella Italia restaurant"
+            class="about-img"
+            loading="lazy"
+          />
+          <div class="about-badge">
+            <span class="badge-num">35+</span>
+            <span class="badge-label">Years of Excellence</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <p class="section-eyebrow">Our Story</p>
+          <h2 class="section-title">A Legacy of Flavor <span>&amp; Passion</span></h2>
+          <p class="about-text">
+            Bella Italia was born in a small Naples kitchen where Nonna Rosa perfected
+            her Sunday ragù. Today, three decades later, we carry those recipes to your
+            table — every dish prepared with the same love, patience, and commitment to
+            quality that made strangers feel like family.
+          </p>
+          <p class="about-text">
+            We source directly from local farms and import artisanal Italian products
+            to ensure every bite is an authentic experience you won't find elsewhere.
+          </p>
+
+          <div class="about-highlights">
+
+            <div class="highlight">
+              <div class="highlight-icon"><i class="fas fa-seedling"></i></div>
+              <div>
+                <h4>Fresh Ingredients</h4>
+                <p>Sourced daily from trusted local farms.</p>
+              </div>
+            </div>
+
+            <div class="highlight">
+              <div class="highlight-icon"><i class="fas fa-hat-chef"></i></div>
+              <div>
+                <h4>Experienced Chefs</h4>
+                <p>Award-winning culinary team since 1987.</p>
+              </div>
+            </div>
+
+            <div class="highlight">
+              <div class="highlight-icon"><i class="fas fa-mug-hot"></i></div>
+              <div>
+                <h4>Cozy Atmosphere</h4>
+                <p>Warm, candlelit ambiance for every occasion.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="menu section" id="menu">
+      <div class="container">
+
+        <p class="section-eyebrow center">Our Signature Dishes</p>
+        <h2 class="section-title center">Popular <span>Menu</span></h2>
+        <p class="section-sub center">
+          Every dish is a celebration — crafted from scratch using time-honoured techniques.
+        </p>
+
+        <div class="menu-tabs">
+          <span class="tab active">All</span>
+          <span class="tab">Mains</span>
+          <span class="tab">Pasta</span>
+          <span class="tab">Desserts</span>
+        </div>
+
+        <div class="menu-grid">
+
+          <!-- Pizza -->
+          <div class="menu-card">
+            <div class="menu-card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=80"
+                alt="Margherita Pizza"
+                loading="lazy"
+              />
+              <span class="menu-badge">Chef's Pick</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Margherita Pizza</h3>
+                <span class="price">$14.99</span>
+              </div>
+    
+          <a href="#contact" class="btn btn-card">Order Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Burger -->
+          <div class="menu-card">
+            <div class="menu-card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&q=80"
+                alt="Truffle Burger"
+                loading="lazy"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Truffle Burger</h3>
+                <span class="price">$16.99</span>
+              </div>
+            
+              <a href="#contact" class="btn btn-card">Order Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Pasta -->
+          <div class="menu-card">
+            <div class="menu-card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=500&q=80"
+                alt="Spaghetti Carbonara"
+                loading="lazy"
+              />
+              <span class="menu-badge">Bestseller</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Spaghetti Carbonara</h3>
+                <span class="price">$13.99</span>
+              </div>
+            
+              <a href="#contact" class="btn btn-card">Order Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+           
+
+        <!-- Grilled Chicken -->
+          <div class="menu-card">
+            <div class="menu-card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=500&q=80"
+                alt="Herb Grilled Chicken"
+                loading="lazy"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Herb Grilled Chicken</h3>
+                <span class="price">$18.99</span>
+              </div>
+          
+              <a href="#contact" class="btn btn-card">Order Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Dessert -->
+          <div class="menu-card">
+            <div class="menu-card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500&q=80"
+                alt="Classic Tiramisu"
+                loading="lazy"
+              />
+              <span class="menu-badge">Sweet</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Classic Tiramisu</h3>
+                <span class="price">$9.99</span>
+              </div>
+            
+              <a href="#contact" class="btn btn-card">Order Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div><!-- /menu-grid -->
+      </div>
+    </section>
+ <section class="gallery section" id="gallery">
+  <div class="container">
+    <p class="section-eyebrow center">Moments & Dishes</p>
+    <h2 class="section-title center">Our Gallery</h2>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80" alt="Restaurant Interior">
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80" alt="Pizza">
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800&q=80" alt="Pasta">
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="Fine Dining">
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1481833761820-0509d3217039?w=800&q=80" alt="Dessert">
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80" alt="Chef">
+      </div>
+
+    </div>
+  </div>
+</section>
+    <section class="reviews section" id="reviews">
+      <div class="container">
+
+        <p class="section-eyebrow center">What Guests Say</p>
+        <h2 class="section-title center">Customer <span>Reviews</span></h2>
+
+        <div class="reviews-grid">
+
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="review-text">
+              "Bella Italia is hands-down the best dining experience I've had in years.
+              The Carbonara was perfectly balanced and the atmosphere felt like a warm embrace."
+            </p>
+            <div class="reviewer">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sofia Martinez" loading="lazy" />
+              <div>
+                <h4>Sofia Martinez</h4>
+                <span>Food Blogger, NYC</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Featured review (highlighted in red) -->
+          <div class="review-card featured">
+            <div class="review-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="review-text">
+              "From the moment we walked in, the service was impeccable. The wood-fired pizza
+              transported me straight to Naples. Our whole family was blown away."
+            </p>
+            <div class="reviewer">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="James Keller" loading="lazy" />
+              <div>
+                <h4>James Keller</h4>
+                <span>Regular Guest</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="review-text">
+              "The Tiramisu is absolute perfection. Light, creamy, and the espresso kick
+              is just right. I've recommended Bella Italia to everyone I know."
+            </p>
+            <div class="reviewer">
+              <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Priya Sharma" loading="lazy" />
+              <div>
+                <h4>Priya Sharma</h4>
+                <span>Culinary Enthusiast</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+
+        <div class="contact-info">
+          <p class="section-eyebrow">Get In Touch</p>
+          <h2 class="section-title">Reserve Your <span>Table</span></h2>
+          <p class="contact-intro">
+            Whether it's a birthday, anniversary, or simply a Tuesday — every meal at
+            Bella Italia deserves a perfect setting. Contact us or fill the form.
+          </p>
+
+          <ul class="contact-details">
+            <li>
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <strong>Address</strong>
+                <span>42 Via Napoli, Little Italy, New York, NY 10013</span>
+              </div>
+            </li>
+            <li>
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <strong>Phone</strong>
+                <span>+1 (212) 555-0142</span>
+              </div>
+            </li>
+            <li>
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <strong>Email</strong>
+                <span>reservations@bellaitalia.com</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-form-wrap">
+
+          <div class="form-group-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="John Doe" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="+1 (555) 000-0000" />
+          </div>
+
+          <div class="form-group">
+            <label for="date">Preferred Date &amp; Time</label>
+            <input type="datetime-local" id="date" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Special Requests</label>
+            <textarea id="message" rows="4" placeholder="Dietary requirements, seating preferences…"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">
+            Send Reservation <i class="fas fa-paper-plane"></i>
+          </button>
+
+        </div>
+
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer-grid">
+
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo footer-logo">
+            <span class="logo-icon"><i class="fas fa-utensils"></i></span>
+            <span class="logo-text">Bella <em>Italia</em></span>
+          </a>
+          <p>Bringing the soul of Italian cuisine to your table since 1987.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="TripAdvisor"><i class="fab fa-tripadvisor"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Our Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <ul class="hours-list">
+            <li><span>Mon &ndash; Thu</span><span>11:00 &ndash; 22:00</span></li>
+            <li><span>Fri &ndash; Sat</span><span>11:00 &ndash; 23:30</span></li>
+            <li><span>Sunday</span><span>12:00 &ndash; 21:00</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2024 Bella Italia. All rights reserved.
+          Crafted with <i class="fas fa-heart"></i> in New York.
+        </p>
+      </div>
+    </footer>
+
+  </body>
+</html>
